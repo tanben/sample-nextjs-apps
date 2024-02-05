@@ -1,0 +1,28 @@
+{
+  "name": "server-actions",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@faker-js/faker": "^8.4.0",
+    "@mui/material": "^5.15.7",
+    "@mui/system": "^5.15.7",
+    "@mui/x-charts": "^6.19.3",
+    "launchdarkly-node-server-sdk": "^7.0.3",
+    "launchdarkly-react-client-sdk": "^3.0.10",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
